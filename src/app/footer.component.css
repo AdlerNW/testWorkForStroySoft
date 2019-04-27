@@ -1,0 +1,67 @@
+.footer {
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	min-width: 126vh;
+}
+
+.footer__nav {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	line-height: 5vh;
+}
+
+.footer__nav li a {
+	font-size: 1.27vh;
+	color: white;
+	text-decoration: none;
+}
+
+.footer__nav li a:hover,
+.footer__contacts li a:hover {
+	animation: alllinks 1s forwards;
+}
+
+.footer__logos {
+	display: flex;
+	width: 23%;
+	justify-content: flex-end;
+}
+
+.footer__logos_logovisa {
+	width: 5vh;
+	height: 5vh;
+	background: url(img/logo_visa.png) no-repeat;
+	background-size: contain;
+}
+
+.footer__logos_logouniteller {
+	width: 5vh;
+	height: 5vh;
+	background: url(img/logo_uniteller.png) no-repeat;
+	background-size: contain;
+}
+
+.footer__contacts {
+	display: flex;
+	justify-content: flex-end;
+	width: 21%;
+	color: white;
+	align-items: center;
+	padding-right: 2vh;
+}
+
+.footer__contacts li {
+	font-size: 1.27vh;
+	text-align: right;
+	margin-right: 3px;
+}
+
+.footer__contacts li a {
+	font-size: 1.27vh;
+	color: white;
+	text-decoration: none;
+	border-right: 1px solid white;
+	padding-right: 5px;
+}

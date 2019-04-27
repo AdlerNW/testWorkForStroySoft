@@ -1,0 +1,46 @@
+.container {
+	max-width: 126.19vh;
+	margin: 0 0 0 auto;
+	height: 100vh;
+	background: url(img/bg_pic_4.png) no-repeat;
+	background-size: contain;
+	overflow: hidden;
+}
+
+@keyframes alllinks {
+	100% {
+		color: red;
+		font-size: 115%;
+	}
+}
+
+@keyframes logomain {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes btnenter {
+	100% {
+		background: #34e67f;
+		border: 2px solid #fffeff;
+		color: #fffeff;
+	}
+}
+
+@keyframes btnreg {
+	100% {
+		background: #fffeff;
+		color: #34e67f;
+		border: 2px solid #fffeff;
+	}
+}
+
+@keyframes btngetfree {
+	100% {
+		background: #ffe5b4;
+		color: black;
+		font-size: 150%;
+		height: 7vh;
+	}
+}

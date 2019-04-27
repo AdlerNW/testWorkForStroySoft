@@ -1,0 +1,71 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+
+}
+
+.header__logo {
+	margin-left: 5px;
+	width: 23.7vh;
+	height: 5vh;
+	background: url(img/logo_main.png) no-repeat;
+	background-size: contain;
+}
+
+.header__logo:hover {
+	animation: logomain 1s;
+}
+
+.header__nav {
+	width: 55%;
+	margin-top: 2px;
+	display: flex;
+	justify-content: space-around;
+	line-height: 5vh;
+}
+
+.header__nav li a {
+	font-size: 1.7vh;
+	color: white;
+	text-decoration: none;
+}
+
+.header__nav li a:hover {
+	animation: alllinks 1s forwards;
+}
+
+.header__buttons {
+	width: 18%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.header__buttons__enter {
+	background: #fffeff;
+	border: 2px solid #34e67f;
+	height: 4.36vh;
+	color: #34e67f;
+	font-size: 1.7vh;
+	border-radius: 2px;
+	padding: 0 8px 0 8px;
+}
+
+.header__buttons__enter:hover {
+	animation: btnenter 1s forwards;
+}
+
+.header__buttons__reg {
+	background: #34e67f;
+	color: #fffeff;
+	height: 4.36vh;
+	border: 2px solid #34e67f;
+	font-size: 1.7vh;
+	border-radius: 2px;
+	padding: 0 4px 0 4px;
+}
+
+.header__buttons__reg:hover {
+	animation: btnreg 1s forwards;
+}
