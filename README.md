@@ -2,12 +2,12 @@
 
 ## Install packages
 
-### npm i
+#### npm i
 
 ## Start server
 
-### node server.js
+#### node server.js
 
 ## Start project
 
-### npm run dev
+#### npm run dev
